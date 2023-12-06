@@ -1,0 +1,2 @@
+ddynamic_reconfigure:nvi_msgs:nvi_speech:nvi_task_arrange:realsense-ros/realsense2_camera:realsense-ros/realsense2_description
+-DCATKIN_DEVEL_PREFIX=/home/juhaokun/ros_test/devel -DCMAKE_INSTALL_PREFIX=/home/juhaokun/ros_test/install -G Unix Makefiles

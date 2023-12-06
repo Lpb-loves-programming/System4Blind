@@ -1,0 +1,338 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"include",
+			"generate_messages",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"build/nvi_msgs/cmake/nvi_msgs-genmsg.cmake",
+			"/opt/ros/noetic/share/genmsg/cmake/genmsg-extras.cmake",
+			"nvi_msgs/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 85,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 307,
+				"parent" : 1
+			},
+			{
+				"file" : 0,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 694,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 709,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 723,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 813,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 705,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 713,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 707,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 725,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 703,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 701,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 819,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 711,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 715,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 717,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 719,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 721,
+				"parent" : 3
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "_nvi_msgs_generate_messages_check_deps_GPSTarget::@b3f8c73d3e50056faf70"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "_nvi_msgs_generate_messages_check_deps_Destination::@b3f8c73d3e50056faf70"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "std_msgs_generate_messages_py::@b3f8c73d3e50056faf70"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "_nvi_msgs_generate_messages_check_deps_ObjectArray::@b3f8c73d3e50056faf70"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "_nvi_msgs_generate_messages_check_deps_HeaderFloat32::@b3f8c73d3e50056faf70"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "_nvi_msgs_generate_messages_check_deps_Voice::@b3f8c73d3e50056faf70"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "_nvi_msgs_generate_messages_check_deps_Location::@b3f8c73d3e50056faf70"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "_nvi_msgs_generate_messages_check_deps_Object::@b3f8c73d3e50056faf70"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "_nvi_msgs_generate_messages_check_deps_stamp_float32array::@b3f8c73d3e50056faf70"
+		},
+		{
+			"backtrace" : 14,
+			"id" : "sensor_msgs_generate_messages_py::@b3f8c73d3e50056faf70"
+		},
+		{
+			"backtrace" : 15,
+			"id" : "_nvi_msgs_generate_messages_check_deps_HeaderString::@b3f8c73d3e50056faf70"
+		},
+		{
+			"backtrace" : 16,
+			"id" : "_nvi_msgs_generate_messages_check_deps_TargetWaypoint::@b3f8c73d3e50056faf70"
+		},
+		{
+			"backtrace" : 17,
+			"id" : "_nvi_msgs_generate_messages_check_deps_TargetPath::@b3f8c73d3e50056faf70"
+		},
+		{
+			"backtrace" : 18,
+			"id" : "_nvi_msgs_generate_messages_check_deps_RGBDImage::@b3f8c73d3e50056faf70"
+		},
+		{
+			"backtrace" : 19,
+			"id" : "_nvi_msgs_generate_messages_check_deps_CompressedRGBDImage::@b3f8c73d3e50056faf70"
+		}
+	],
+	"id" : "nvi_msgs_generate_messages_py::@b3f8c73d3e50056faf70",
+	"name" : "nvi_msgs_generate_messages_py",
+	"paths" : 
+	{
+		"build" : "nvi_msgs",
+		"source" : "nvi_msgs"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/nvi_msgs/CMakeFiles/nvi_msgs_generate_messages_py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/nvi_msgs/CMakeFiles/nvi_msgs_generate_messages_py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/lib/python3/dist-packages/nvi_msgs/msg/_stamp_float32array.py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/lib/python3/dist-packages/nvi_msgs/msg/_Object.py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/lib/python3/dist-packages/nvi_msgs/msg/_ObjectArray.py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/lib/python3/dist-packages/nvi_msgs/msg/_Voice.py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/lib/python3/dist-packages/nvi_msgs/msg/_GPSTarget.py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/lib/python3/dist-packages/nvi_msgs/msg/_HeaderString.py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/lib/python3/dist-packages/nvi_msgs/msg/_HeaderFloat32.py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/lib/python3/dist-packages/nvi_msgs/msg/_TargetWaypoint.py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/lib/python3/dist-packages/nvi_msgs/msg/_TargetPath.py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/lib/python3/dist-packages/nvi_msgs/msg/_RGBDImage.py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/lib/python3/dist-packages/nvi_msgs/msg/_CompressedRGBDImage.py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/lib/python3/dist-packages/nvi_msgs/msg/_Destination.py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/lib/python3/dist-packages/nvi_msgs/msg/_Location.py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/lib/python3/dist-packages/nvi_msgs/msg/__init__.py.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

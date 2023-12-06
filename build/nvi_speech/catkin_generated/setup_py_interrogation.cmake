@@ -1,0 +1,7 @@
+set(nvi_speech_SETUP_PY_SETUP_MODULE "distutils.core")
+set(nvi_speech_SETUP_PY_VERSION "0.0.0")
+set(nvi_speech_SETUP_PY_SCRIPTS "")
+set(nvi_speech_SETUP_PY_PACKAGES "asrt_sdk_ros")
+set(nvi_speech_SETUP_PY_PACKAGE_DIRS "src/asrt_sdk_ros")
+set(nvi_speech_SETUP_PY_MODULES "")
+set(nvi_speech_SETUP_PY_MODULE_DIRS "")

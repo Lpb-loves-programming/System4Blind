@@ -1,0 +1,8 @@
+prefix=/home/juhaokun/ros_test/devel
+
+Name: nvi_task_arrange
+Description: Description of nvi_task_arrange
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

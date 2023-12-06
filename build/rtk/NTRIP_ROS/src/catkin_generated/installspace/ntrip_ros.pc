@@ -1,0 +1,8 @@
+prefix=/home/juhaokun/ros_test/install
+
+Name: ntrip_ros
+Description: Description of ntrip_ros
+Version: 1.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 
