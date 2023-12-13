@@ -1,7 +1,0 @@
-set(nvi_planning_SETUP_PY_SETUP_MODULE "distutils.core")
-set(nvi_planning_SETUP_PY_VERSION "0.0.0")
-set(nvi_planning_SETUP_PY_SCRIPTS "")
-set(nvi_planning_SETUP_PY_PACKAGES "global_planning;local_planning")
-set(nvi_planning_SETUP_PY_PACKAGE_DIRS "src/global_planning;src/local_planning")
-set(nvi_planning_SETUP_PY_MODULES "")
-set(nvi_planning_SETUP_PY_MODULE_DIRS "")

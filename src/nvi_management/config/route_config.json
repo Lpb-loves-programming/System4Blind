@@ -1,0 +1,67 @@
+[
+    {
+        "name": "rongkew2e",
+        "start": {
+            "latitude": 39.983596122633195,
+            "longitude": 116.32503917559877
+        },
+        "end": {
+            "latitude": 39.98354494271494, 
+            "longitude": 116.32690425596891
+        },
+        "landmark": "AMD",
+        "destination": "融科资讯中心"
+    },
+    {
+        "name": "rongkee2w",
+        "start": {
+            "latitude": 39.98365351337307,
+            "longitude": 116.32715032444247
+        },
+        "end": {
+            "latitude": 39.98361972849266,
+            "longitude": 116.32509490315582
+        },
+        "landmark": "搜狐新媒体大厦",
+        "destination": "搜狐新媒体大厦"
+    },
+    {
+        "name": "felloww2e",
+        "start": {
+            "latitude": 39.98146060861255,
+            "longitude": 116.32497115529087
+        },
+        "end": {
+            "latitude": 39.981027534551465, 
+            "longitude": 116.32705898836915
+        },
+        "landmark": "向科学家致敬",
+        "destination": "院士公园"
+    },
+    {
+        "name": "kexings2n",
+        "start": {
+            "latitude": 39.977955131769974,
+            "longitude": 116.32516424662654
+        },
+        "end": {
+            "latitude": 39.9802401338386, 
+            "longitude": 116.32506370884211
+        },
+        "landmark": "科星社区",
+        "destination": "中科院大院"
+    },
+    {
+        "name": "kexingn2s",
+        "start": {
+            "latitude": 39.980149202439854,
+            "longitude": 116.32504896445856
+        },
+        "end": {
+            "latitude": 39.97798883010262,
+            "longitude": 116.32516264728231
+        },
+        "landmark": "中关村街道综合文化活动中心",
+        "destination": "中关村街道综合文化活动中心"
+    }
+]

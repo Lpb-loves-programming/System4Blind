@@ -1,0 +1,8 @@
+prefix=/home/juhaokun/ros_test/devel
+
+Name: nvi_management
+Description: Description of nvi_management
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

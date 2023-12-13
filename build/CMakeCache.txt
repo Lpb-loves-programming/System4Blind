@@ -327,6 +327,12 @@ EMPY_SCRIPT:STRING=/usr/lib/python3/dist-packages/em.py
 //The directory containing a CMake configuration file for Eigen3.
 Eigen3_DIR:PATH=/usr/lib/cmake/eigen3
 
+//Value Computed by CMake
+Function_BINARY_DIR:STATIC=/home/juhaokun/ros_test/build/Function
+
+//Value Computed by CMake
+Function_SOURCE_DIR:STATIC=/home/juhaokun/ros_test/src/Function
+
 //Path to a file.
 GLOG_INCLUDE_DIR:PATH=GLOG_INCLUDE_DIR-NOTFOUND
 
@@ -411,6 +417,12 @@ UBUNTU:BOOL=TRUE
 
 //LSB Distrib - codename tag
 UBUNTU_FOCAL:BOOL=TRUE
+
+//Value Computed by CMake
+UpDownStairs_BINARY_DIR:STATIC=/home/juhaokun/ros_test/build/Function
+
+//Value Computed by CMake
+UpDownStairs_SOURCE_DIR:STATIC=/home/juhaokun/ros_test/src/Function
 
 //Path to a file.
 _file_name:FILEPATH=/home/juhaokun/ros_test/src/ddynamic_reconfigure/test/ddynamic_reconfigure.test
@@ -597,6 +609,18 @@ ntrip_ros_BINARY_DIR:STATIC=/home/juhaokun/ros_test/build/rtk/NTRIP_ROS/src
 ntrip_ros_SOURCE_DIR:STATIC=/home/juhaokun/ros_test/src/rtk/NTRIP_ROS/src
 
 //Value Computed by CMake
+nvi_bringup_BINARY_DIR:STATIC=/home/juhaokun/ros_test/build/nvi_bringup
+
+//Value Computed by CMake
+nvi_bringup_SOURCE_DIR:STATIC=/home/juhaokun/ros_test/src/nvi_bringup
+
+//Value Computed by CMake
+nvi_management_BINARY_DIR:STATIC=/home/juhaokun/ros_test/build/nvi_management
+
+//Value Computed by CMake
+nvi_management_SOURCE_DIR:STATIC=/home/juhaokun/ros_test/src/nvi_management
+
+//Value Computed by CMake
 nvi_msgs_BINARY_DIR:STATIC=/home/juhaokun/ros_test/build/nvi_msgs
 
 //The directory containing a CMake configuration file for nvi_msgs.
@@ -605,8 +629,14 @@ nvi_msgs_DIR:PATH=/home/juhaokun/ros_test/devel/share/nvi_msgs/cmake
 //Value Computed by CMake
 nvi_msgs_SOURCE_DIR:STATIC=/home/juhaokun/ros_test/src/nvi_msgs
 
+//The directory containing a CMake configuration file for nvi_ocr.
+nvi_ocr_DIR:PATH=nvi_ocr_DIR-NOTFOUND
+
 //Value Computed by CMake
 nvi_planning_BINARY_DIR:STATIC=/home/juhaokun/ros_test/build/nvi_planning
+
+//The directory containing a CMake configuration file for nvi_planning.
+nvi_planning_DIR:PATH=/home/juhaokun/ros_test/devel/share/nvi_planning/cmake
 
 //Value Computed by CMake
 nvi_planning_SOURCE_DIR:STATIC=/home/juhaokun/ros_test/src/nvi_planning
@@ -622,6 +652,26 @@ nvi_task_arrange_BINARY_DIR:STATIC=/home/juhaokun/ros_test/build/nvi_task_arrang
 
 //Value Computed by CMake
 nvi_task_arrange_SOURCE_DIR:STATIC=/home/juhaokun/ros_test/src/nvi_task_arrange
+
+//Value Computed by CMake
+nvi_transit_BINARY_DIR:STATIC=/home/juhaokun/ros_test/build/nvi_transit
+
+//Value Computed by CMake
+nvi_transit_SOURCE_DIR:STATIC=/home/juhaokun/ros_test/src/nvi_transit
+
+//Value Computed by CMake
+nvi_typing_BINARY_DIR:STATIC=/home/juhaokun/ros_test/build/nvi_typing
+
+//Value Computed by CMake
+nvi_typing_SOURCE_DIR:STATIC=/home/juhaokun/ros_test/src/nvi_typing
+
+//Value Computed by CMake
+nvi_voice_BINARY_DIR:STATIC=/home/juhaokun/ros_test/build/nvi_voice
+
+nvi_voice_DIR:PATH=
+
+//Value Computed by CMake
+nvi_voice_SOURCE_DIR:STATIC=/home/juhaokun/ros_test/src/nvi_voice
 
 //The directory containing a CMake configuration file for pluginlib.
 pluginlib_DIR:PATH=/opt/ros/noetic/share/pluginlib/cmake
@@ -869,7 +919,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=10
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=15
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

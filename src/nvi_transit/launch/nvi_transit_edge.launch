@@ -1,0 +1,10 @@
+<launch>
+    <remap from="/image/rgb" to="/camera/rgb/image_raw/compressed" />
+    <remap from="/image/depth" to="/camera/depth/image_raw" />
+    <node pkg="nvi_transit" name="nvi_transit_edge" type="nvi_transit_edge_node.py" cwd="node" respawn="true" output="screen">
+        <param name="server_ip"  type = "string" value="10.29.51.203"/>
+        <param name="server_port"  type = "int" value="8080"/>
+        <param name="rgbd_rate"  type = "double" value="2"/>
+        <param name="heartbeat_rate"  type = "double" value="1"/>
+    </node>
+</launch>

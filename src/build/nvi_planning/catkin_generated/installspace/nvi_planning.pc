@@ -1,8 +1,0 @@
-prefix=/usr/local
-
-Name: nvi_planning
-Description: Description of nvi_planning
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

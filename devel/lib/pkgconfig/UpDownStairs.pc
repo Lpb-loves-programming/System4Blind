@@ -1,0 +1,8 @@
+prefix=/home/juhaokun/ros_test/devel
+
+Name: UpDownStairs
+Description: Description of UpDownStairs
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

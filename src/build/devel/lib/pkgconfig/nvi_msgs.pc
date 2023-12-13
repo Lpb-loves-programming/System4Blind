@@ -1,8 +1,0 @@
-prefix=/home/juhaokun/ros_test/src/build/devel
-
-Name: nvi_msgs
-Description: Description of nvi_msgs
-Version: 0.0.0
-Cflags: -I/home/juhaokun/ros_test/src/build/devel/include
-Libs: -L${prefix}/lib 
-Requires: 

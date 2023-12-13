@@ -1,0 +1,119 @@
+{
+    "heartbeat": [
+        {
+            "id": "semantic_heartbeat",
+            "type": "Empty",
+            "pkg": "std_msgs.msg",
+            "topic": "/semantic_map/heartbeat",
+            "queue_size": 10,
+            "src": "server"
+        },
+        {
+            "id": "speech_heartbeat",
+            "type": "Empty",
+            "pkg": "std_msgs.msg",
+            "topic": "/speech/heatbeat",
+            "queue_size": 10,
+            "src": "edge"
+        }
+    ],
+    "sensor": [],
+    "function": [
+        {
+            "id": "vio",
+            "type": "Odometry",
+            "pkg": "nav_msgs.msg",
+            "topic": "/vins_estimator/odometry",
+            "queue_size": 100,
+            "src": "edge"
+        },
+        {
+            "id": "speech_command",
+            "type": "String",
+            "pkg": "std_msgs.msg",
+            "topic": "/speech/command",
+            "queue_size": 100,
+            "src": "edge"
+        },
+        {
+            "id": "voice_system",
+            "type": "String",
+            "pkg": "std_msgs.msg",
+            "topic": "/voice/system",
+            "queue_size": 10,
+            "src": "server"
+        },
+        {
+            "id": "tf",
+            "type": "TFMessage",
+            "pkg": "tf2_msgs.msg",
+            "topic": "/tf",
+            "queue_size": 100,
+            "src": "edge"
+        },
+        {
+            "id": "tf_static",
+            "type": "TFMessage",
+            "pkg": "tf2_msgs.msg",
+            "topic": "/tf_static",
+            "queue_size": 100,
+            "src": "edge"
+        },
+        {
+            "id": "global_target",
+            "type": "GPSTarget",
+            "pkg": "nvi_msgs.msg",
+            "topic": "/global_planning/target",
+            "queue_size": 100,
+            "src": "edge"
+        },
+        {
+            "id": "target_path",
+            "type": "TargetPath",
+            "pkg": "nvi_msgs.msg",
+            "topic": "/local_planning/target_path",
+            "queue_size": 10,
+            "src": "server"
+        },
+        {
+            "id": "global_status",
+            "type": "String",
+            "pkg": "std_msgs.msg",
+            "topic": "/global_planning/status",
+            "queue_size": 100,
+            "src": "edge"
+        },
+        {
+            "id": "pr_map",
+            "type": "OccupancyGrid",
+            "pkg": "nav_msgs.msg",
+            "topic": "/prmap_full",
+            "queue_size": 10,
+            "src": "server"
+        },
+        {
+            "id": "cost_map",
+            "type": "OccupancyGrid",
+            "pkg": "nav_msgs.msg",
+            "topic": "/local_planning/cost_map",
+            "queue_size": 10,
+            "src": "server"
+        },
+        {
+            "id": "objects",
+            "type": "ObjectArray",
+            "pkg": "nvi_msgs.msg",
+            "topic": "/local_planning/objects",
+            "queue_size": 100,
+            "src": "server"
+        },
+        {
+            "id": "ocr",
+            "type": "HeaderString",
+            "pkg": "nvi_msgs.msg",
+            "topic": "/ocr",
+            "queue_size": 100,
+            "src": "server"
+        }
+    ]
+}

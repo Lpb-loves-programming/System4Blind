@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="nvi_task_arrange" name="task_arranger" type="Task_arrange_node.py" cwd="node" respawn="true" output="screen" >
+    </node>
+</launch>

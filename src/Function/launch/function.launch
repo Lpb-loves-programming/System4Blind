@@ -1,0 +1,9 @@
+<launch>
+<!-- output="log|screen" -->
+    <node pkg="Function" name="busrec" type="busrec.py" cwd="node" respawn="true" output="screen" >
+    </node>
+    <node pkg="Function" name="trafficlight" type="trafficlight.py" cwd="node" respawn="true" output="screen" >
+    </node>
+    <node pkg="Function" name="updownstairs" type="updownstairs.py" cwd="node" respawn="true" output="screen" >
+    </node>
+</launch>

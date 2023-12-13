@@ -1,0 +1,67 @@
+{
+    "sensor": [
+        {
+            "module_type": "sensor",
+            "msg": "/camera/rgb/image_raw",
+            "msg_package": "sensor_msgs.msg",
+            "msg_type": "Image",
+            "msg_name_zh": "彩色图像"
+        },
+        {
+            "msg": "/camera/depth/image_raw",
+            "msg_package": "sensor_msgs.msg",
+            "msg_type": "Image",
+            "msg_name_zh": "深度图像"
+        },
+        {
+            "msg": "/ublox_driver/receiver_lla",
+            "msg_package": "sensor_msgs.msg",
+            "msg_type": "NavSatFix",
+            "msg_name_zh": "全局定位"
+        },
+        {
+            "msg": "/head/imu",
+            "msg_package": "sensor_msgs.msg",
+            "msg_type": "Imu",
+            "msg_name_zh": "磁力计"
+        }
+    ],
+    "function": [
+        {
+            "msg": "/vins_estimator/odometry",
+            "msg_package": "nav_msgs.msg",
+            "msg_type": "Odometry",
+            "msg_name_zh": "里程计"
+        },
+        {
+            "msg": "/semantic_map/heartbeat",
+            "msg_package": "std_msgs.msg",
+            "msg_type": "Empty",
+            "msg_name_zh": "语义地图"
+        },
+        {
+            "msg": "/global_planning/target",
+            "msg_package": "nvi_msgs.msg",
+            "msg_type": "GPSTarget",
+            "msg_name_zh": "全局导航"
+        },
+        {
+            "msg": "/local_planning/belt",
+            "msg_package": "nvi_msgs.msg",
+            "msg_type": "HeaderString",
+            "msg_name_zh": "局部导航"
+        },
+        {
+            "msg": "/belt/heartbeat",
+            "msg_package": "std_msgs.msg",
+            "msg_type": "Empty",
+            "msg_name_zh": "腰带蓝牙"
+        },
+        {
+            "msg": "/voice/heartbeat",
+            "msg_package": "std_msgs.msg",
+            "msg_type": "Empty",
+            "msg_name_zh": "语音生成模块"
+        }
+    ]
+}
